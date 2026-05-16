@@ -11,7 +11,7 @@ plugins {
 android {
     namespace = "com.example.energy_management_app"
     compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    ndkVersion = "27.0.12077973"   // <--- FIXED: force NDK 27
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
