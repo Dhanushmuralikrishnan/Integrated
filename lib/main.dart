@@ -54,7 +54,7 @@ class EnergyApp extends StatelessWidget {
         primarySwatch: Colors.green,
         brightness: Brightness.dark,
         useMaterial3: true,
-        cardTheme: CardThemeData(
+        cardTheme: CardTheme(
             elevation: 4,
             shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(20))),
